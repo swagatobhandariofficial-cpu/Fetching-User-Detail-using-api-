@@ -1,12 +1,20 @@
-class kitaaab {
-    constructor(name,price,author,color){
-        this.name=name;
-        this.price=price;
-        this.author=author;
-        this.color=color;
+class sketch {
+    constructor(){
+        this.name="Tom";
+        this.color="blue";
     }
 }
 
-let k1 = new kitaaab("moral",600,"debanjan","orange");
-let k2 = new kitaaab("Indian Constitution",362,"Swatantra Sananies","dark blue");
-let k3 = new kitaaab("Rich dad poor dad",350,"Unknown","blue");
+
+sketch.prototype.speak = function(){
+    console.log("no, cats can't speak");
+}
+sketch.prototype.walk = function(){
+    console.log("Yeah, cats can walk");
+}
+
+let sk1= new sketch;
+
+Obj={
+    
+}
